@@ -25,7 +25,7 @@ You are able to modify the Python or HTML code by modifying the following files:
 
 * validator.py - Main Python script
 * templates
-  * main.html - Main HTML page
+  * main.html - Default HTML page
   * valid.html - Shown when address is valid
   * invalid.html - Shown when address is invalid
 * static
