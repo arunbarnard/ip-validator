@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IP Validator</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+
+<body>
+
+    <h2>Input an IP address to validate:</h2>
+
+    <form method="POST">
+        <input name="number">
+        <input type="submit">
+    </form>
+    <br>
+
+    <b>
+        <p>IP address must be in the following format in order to be valid:</p>
+    </b>
+
+    <ul>
+        <li>Be numerical and between 4 and 12 digits long, with four parts separated by '.'</li>
+
+        <li>First block between 10 and 255</li>
+
+        <li>Second, third and fourth block between 0 and 255</li>
+    </ul>
+
+    <p>This application will also check if the IP address is a known Tor exit node, and it's approximate location if avaliable.</p>
+
+
+    <br>
+
+
+    <h3>This is a web-based program to check the formatting of a standard IPv4 IP address and whether it is a known Tor exit node.</h3>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>IP Validator</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+</head>
+
+<body>
+
+    <h2 style="color:red" id="outputValue">{{ value }}</h2>
+
+    <b>
+        <h2>This IP address is in an <b>invalid</b> format.</h2>
+    </b>
+
+    <p>Check another:</p>
+
+    <form method="POST">
+        <input name="number">
+        <input type="submit">
+    </form>
+
+    <h3>This is a web-based program to check the formatting of a standard IPv4 IP address and whether it is a known Tor exit node.</h3>
+
+</body>
+
+</html>
